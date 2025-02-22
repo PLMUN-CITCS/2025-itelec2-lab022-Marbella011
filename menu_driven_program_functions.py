@@ -7,7 +7,7 @@ def display_menu():
 def greet_user():
     print("\nHello! Welcome to the program.")
 
-def check_even_odd(number): #This function needs to be defined separately.  See previous responses for its implementation.
+def check_even_odd(number):
     if number % 2 == 0:
         return f"{number} is an Even number."
     else:
@@ -51,3 +51,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
